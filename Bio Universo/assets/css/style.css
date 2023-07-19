@@ -143,33 +143,6 @@ h6 {
   max-height: 40px;
 }
 
-/**
-* Get Startet Button 
-*/
-.get-started-btn {
-  margin-left: 22px;
-  background: #5fcf80;
-  color: #fff;
-  border-radius: 50px;
-  padding: 8px 25px;
-  white-space: nowrap;
-  transition: 0.3s;
-  font-size: 14px;
-  display: inline-block;
-}
-
-.get-started-btn:hover {
-  background: #3ac162;
-  color: #fff;
-}
-
-@media (max-width: 768px) {
-  .get-started-btn {
-    margin: 0 15px 0 0;
-    padding: 6px 18px;
-  }
-}
-
 /*--------------------------------------------------------------
 # Navigation Menu
 --------------------------------------------------------------*/
@@ -402,7 +375,7 @@ h6 {
 #hero {
   width: 100%;
   height: 80vh;
-  background: url("../img/fundo.PNG") top center;
+  background: url("../img/biology.jpg") top center;
   background-size: cover;
   position: relative;
 }
@@ -467,6 +440,73 @@ h6 {
 /*
 Monera sections
 */
+.navbar a:hover,
+.navbar .active,
+.navbar .active:focus,
+.navbar li:hover>a {
+  color: #00367D;
+}
+.navbar .dropdown ul a:hover,
+.navbar .dropdown ul .active:hover,
+.navbar .dropdown ul li:hover>a {
+  color: #00367D;
+}
+
+#header-monera {
+  background: #fff;
+  transition: all 0.5s;
+  z-index: 997;
+  padding: 15px 0;
+  box-shadow: 0px 0 18px rgba(55, 66, 59, 0.08);
+}
+
+#header-monera .logo {
+  font-size: 30px;
+  margin: 0;
+  padding: 0;
+  line-height: 1;
+  font-weight: 600;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  font-family: "Poppins", sans-serif;
+}
+
+#header-monera .logo a {
+  color: #00367D;
+}
+
+#header-monera .logo img {
+  max-height: 40px;
+}
+
+.why-us-monera .content {
+  padding: 30px;
+  background: #00367D;
+  border-radius: 4px;
+  color: #fff;
+}
+
+.why-us-monera .content h3 {
+  font-weight: 700;
+  font-size: 34px;
+  margin-bottom: 30px;
+}
+
+.why-us-monera .content p {
+  margin-bottom: 30px;
+}
+
+.why-us-monera .icon-boxes .icon-box h4 {
+  font-size: 20px;
+  font-weight: 700;
+  margin: 0 0 30px 0;
+}
+
+.why-us-monera .icon-boxes .icon-box p {
+  font-size: 15px;
+  color: #848484;
+}
+
 #monera {
   width: 100%;
   height: 80vh;
@@ -477,6 +517,7 @@ Monera sections
 
 #monera:before {
   content: "";
+  background: rgba(0, 0, 0, 0.2);
   position: absolute;
   bottom: 0;
   top: 0;
@@ -494,7 +535,7 @@ Monera sections
   }
 }
 
-#monera h1 {
+section#monera h1 {
   margin: 0;
   font-size: 40px;
   font-weight: 700;
@@ -529,6 +570,29 @@ Monera sections
     font-size: 18px;
     line-height: 24px;
   }
+}
+.breadcrumbs-monera {
+  margin-top: 20px;
+  text-align: center;
+  background: #00367D;
+  padding: 30px 0;
+  color: #fff;
+}
+
+@media (max-width: 992px) {
+  .breadcrumbs {
+    margin-top: 63px;
+  }
+}
+
+.breadcrumbs h2 {
+  font-size: 32px;
+  font-weight: 500;
+}
+
+.breadcrumbs p {
+  font-size: 13pt;
+  margin-bottom: 0;
 }
 /*
 End Monera sections
@@ -750,7 +814,7 @@ section {
 .features .icon-box {
   display: flex;
   align-items: center;
-  padding: 20px;
+  padding: 10px;
   transition: 0.3s;
   border: 1px solid #eef0ef;
 }
@@ -1561,6 +1625,7 @@ section {
 
 #footer .footer-newsletter form input[type=text] {
   border: none;
+  outline: none;
   padding: 4px 8px;
   width: calc(100% - 100px);
 }
