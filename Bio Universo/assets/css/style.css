@@ -436,10 +436,13 @@ h6 {
     line-height: 24px;
   }
 }
+/*--------------------------------------------------------------
+# End Hero Section
+--------------------------------------------------------------*/
 
-/*
-Monera sections
-*/
+/*--------------------------------------------------------------
+# Monera Section
+--------------------------------------------------------------*/
 .navbar a:hover,
 .navbar .active,
 .navbar .active:focus,
@@ -510,7 +513,7 @@ Monera sections
 #monera {
   width: 100%;
   height: 80vh;
-  background: url("../img/Monera/capa.png") top center;
+  background: url("../img/monera/capa.png") top center;
   background-size: cover;
   position: relative;
 }
@@ -571,32 +574,561 @@ section#monera h1 {
     line-height: 24px;
   }
 }
-.breadcrumbs-monera {
-  margin-top: 20px;
-  text-align: center;
+/*--------------------------------------------------------------
+# End Monera Section
+--------------------------------------------------------------*/
+
+/*--------------------------------------------------------------
+# Fungi Section
+--------------------------------------------------------------*/
+.navbar a:hover,
+.navbar .active,
+.navbar .active:focus,
+.navbar li:hover>a {
+  color: #00367D;
+}
+.navbar .dropdown ul a:hover,
+.navbar .dropdown ul .active:hover,
+.navbar .dropdown ul li:hover>a {
+  color: #00367D;
+}
+
+#header-fungi {
+  background: #fff;
+  transition: all 0.5s;
+  z-index: 997;
+  padding: 15px 0;
+  box-shadow: 0px 0 18px rgba(55, 66, 59, 0.08);
+}
+
+#header-fungi .logo {
+  font-size: 30px;
+  margin: 0;
+  padding: 0;
+  line-height: 1;
+  font-weight: 600;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  font-family: "Poppins", sans-serif;
+}
+
+#header-fungi .logo a {
+  color: #00367D;
+}
+
+#header-fungi .logo img {
+  max-height: 40px;
+}
+
+.why-us-fungi .content {
+  padding: 30px;
   background: #00367D;
-  padding: 30px 0;
+  border-radius: 4px;
   color: #fff;
 }
 
+.why-us-fungi .content h3 {
+  font-weight: 700;
+  font-size: 34px;
+  margin-bottom: 30px;
+}
+
+.why-us-fungi .content p {
+  margin-bottom: 30px;
+}
+
+.why-us-fungi .icon-boxes .icon-box h4 {
+  font-size: 20px;
+  font-weight: 700;
+  margin: 0 0 30px 0;
+}
+
+.why-us-fungi .icon-boxes .icon-box p {
+  font-size: 15px;
+  color: #848484;
+}
+
+#fungi {
+  width: 100%;
+  height: 80vh;
+  background: url("../img/fungi/capa.jpg") top center;
+  background-size: cover;
+  position: relative;
+}
+
+#fungi:before {
+  content: "";
+  background: rgba(0, 0, 0, 0.2);
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+#fungi .container {
+  padding-top: 72px;
+}
+
 @media (max-width: 992px) {
-  .breadcrumbs {
-    margin-top: 63px;
+  #fungi .container {
+    padding-top: 62px;
   }
 }
 
-.breadcrumbs h2 {
-  font-size: 32px;
-  font-weight: 500;
+#fungi h1 {
+  margin: 0;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 56px;
+  color: #fff;
+  font-family: "Poppins", sans-serif;
 }
 
-.breadcrumbs p {
-  font-size: 13pt;
-  margin-bottom: 0;
+#fungi h2 {
+  color: #eee;
+  margin: 10px 0 0 0;
+  font-size: 20px;
 }
-/*
-End Monera sections
-*/
+
+@media (min-width: 1024px) {
+  #fungi {
+    background-attachment: fixed;
+  }
+}
+
+@media (max-width: 768px) {
+  #he {
+    height: 100vh;
+  }
+
+  #fungi h1 {
+    font-size: 28px;
+    line-height: 36px;
+  }
+
+  #fungi h2 {
+    font-size: 18px;
+    line-height: 24px;
+  }
+}
+/*--------------------------------------------------------------
+# End Fungi Section
+--------------------------------------------------------------*/
+
+/*--------------------------------------------------------------
+# Protista Section
+--------------------------------------------------------------*/
+.navbar a:hover,
+.navbar .active,
+.navbar .active:focus,
+.navbar li:hover>a {
+  color: #00367D;
+}
+.navbar .dropdown ul a:hover,
+.navbar .dropdown ul .active:hover,
+.navbar .dropdown ul li:hover>a {
+  color: #00367D;
+}
+
+#header-protista {
+  background: #fff;
+  transition: all 0.5s;
+  z-index: 997;
+  padding: 15px 0;
+  box-shadow: 0px 0 18px rgba(55, 66, 59, 0.08);
+}
+
+#header-protista .logo {
+  font-size: 30px;
+  margin: 0;
+  padding: 0;
+  line-height: 1;
+  font-weight: 600;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  font-family: "Poppins", sans-serif;
+}
+
+#header-protista .logo a {
+  color: #00367D;
+}
+
+#header-protista .logo img {
+  max-height: 40px;
+}
+
+.why-us-protista .content {
+  padding: 30px;
+  background: #00367D;
+  border-radius: 4px;
+  color: #fff;
+}
+
+.why-us-protista .content h3 {
+  font-weight: 700;
+  font-size: 34px;
+  margin-bottom: 30px;
+}
+
+.why-us-protista .content p {
+  margin-bottom: 30px;
+}
+
+.why-us-protista .icon-boxes .icon-box h4 {
+  font-size: 20px;
+  font-weight: 700;
+  margin: 0 0 30px 0;
+}
+
+.why-us-protista .icon-boxes .icon-box p {
+  font-size: 15px;
+  color: #848484;
+}
+
+#protista {
+  width: 100%;
+  height: 80vh;
+  background: url("../img/protista/capa.jpg") top center;
+  background-size: cover;
+  position: relative;
+}
+
+#protista:before {
+  content: "";
+  background: rgba(0, 0, 0, 0.2);
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+#protista .container {
+  padding-top: 72px;
+}
+
+@media (max-width: 992px) {
+  #fungi .container {
+    padding-top: 62px;
+  }
+}
+
+#protista h1 {
+  margin: 0;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 56px;
+  color: #fff;
+  font-family: "Poppins", sans-serif;
+}
+
+#protista h2 {
+  color: #eee;
+  margin: 10px 0 0 0;
+  font-size: 20px;
+}
+
+@media (min-width: 1024px) {
+  #protista {
+    background-attachment: fixed;
+  }
+}
+
+@media (max-width: 768px) {
+  #he {
+    height: 100vh;
+  }
+
+  #protista h1 {
+    font-size: 28px;
+    line-height: 36px;
+  }
+
+  #protista h2 {
+    font-size: 18px;
+    line-height: 24px;
+  }
+}
+/*--------------------------------------------------------------
+# End Protista Section
+--------------------------------------------------------------*/
+
+/*--------------------------------------------------------------
+# Plantae Section
+--------------------------------------------------------------*/
+.navbar a:hover,
+.navbar .active,
+.navbar .active:focus,
+.navbar li:hover>a {
+  color: #00367D;
+}
+.navbar .dropdown ul a:hover,
+.navbar .dropdown ul .active:hover,
+.navbar .dropdown ul li:hover>a {
+  color: #00367D;
+}
+
+#header-plantae {
+  background: #fff;
+  transition: all 0.5s;
+  z-index: 997;
+  padding: 15px 0;
+  box-shadow: 0px 0 18px rgba(55, 66, 59, 0.08);
+}
+
+#header-plantae .logo {
+  font-size: 30px;
+  margin: 0;
+  padding: 0;
+  line-height: 1;
+  font-weight: 600;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  font-family: "Poppins", sans-serif;
+}
+
+#header-plantae .logo a {
+  color: #00367D;
+}
+
+#header-plantae .logo img {
+  max-height: 40px;
+}
+
+.why-us-plantae .content {
+  padding: 30px;
+  background: #00367D;
+  border-radius: 4px;
+  color: #fff;
+}
+
+.why-us-plantae .content h3 {
+  font-weight: 700;
+  font-size: 34px;
+  margin-bottom: 30px;
+}
+
+.why-us-plantae .content p {
+  margin-bottom: 30px;
+}
+
+.why-us-plantae .icon-boxes .icon-box h4 {
+  font-size: 20px;
+  font-weight: 700;
+  margin: 0 0 30px 0;
+}
+
+.why-us-plantae .icon-boxes .icon-box p {
+  font-size: 15px;
+  color: #848484;
+}
+
+#plantae {
+  width: 100%;
+  height: 80vh;
+  background: url("../img/plantae/capa.jpg") top center;
+  background-size: cover;
+  position: relative;
+}
+
+#plantae:before {
+  content: "";
+  background: rgba(0, 0, 0, 0.2);
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+#plantae .container {
+  padding-top: 72px;
+}
+
+@media (max-width: 992px) {
+  #plantae .container {
+    padding-top: 62px;
+  }
+}
+
+#plantae h1 {
+  margin: 0;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 56px;
+  color: #fff;
+  font-family: "Poppins", sans-serif;
+}
+
+#plantae h2 {
+  color: #eee;
+  margin: 10px 0 0 0;
+  font-size: 20px;
+}
+
+@media (min-width: 1024px) {
+  #plantae {
+    background-attachment: fixed;
+  }
+}
+
+@media (max-width: 768px) {
+  #he {
+    height: 100vh;
+  }
+
+  #plantae h1 {
+    font-size: 28px;
+    line-height: 36px;
+  }
+
+  #plantae h2 {
+    font-size: 18px;
+    line-height: 24px;
+  }
+}
+/*--------------------------------------------------------------
+# End Plantae Section
+--------------------------------------------------------------*/
+
+/*--------------------------------------------------------------
+# Animalia Section
+--------------------------------------------------------------*/
+.navbar a:hover,
+.navbar .active,
+.navbar .active:focus,
+.navbar li:hover>a {
+  color: #00367D;
+}
+.navbar .dropdown ul a:hover,
+.navbar .dropdown ul .active:hover,
+.navbar .dropdown ul li:hover>a {
+  color: #00367D;
+}
+
+#header-animalia {
+  background: #fff;
+  transition: all 0.5s;
+  z-index: 997;
+  padding: 15px 0;
+  box-shadow: 0px 0 18px rgba(55, 66, 59, 0.08);
+}
+
+#header-animalia .logo {
+  font-size: 30px;
+  margin: 0;
+  padding: 0;
+  line-height: 1;
+  font-weight: 600;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  font-family: "Poppins", sans-serif;
+}
+
+#header-animalia .logo a {
+  color: #00367D;
+}
+
+#header-animalia .logo img {
+  max-height: 40px;
+}
+
+.why-us-animalia .content {
+  padding: 30px;
+  background: #00367D;
+  border-radius: 4px;
+  color: #fff;
+}
+
+.why-us-animalia .content h3 {
+  font-weight: 700;
+  font-size: 34px;
+  margin-bottom: 30px;
+}
+
+.why-us-animalia .content p {
+  margin-bottom: 30px;
+}
+
+.why-us-animalia .icon-boxes .icon-box h4 {
+  font-size: 20px;
+  font-weight: 700;
+  margin: 0 0 30px 0;
+}
+
+.why-us-animalia .icon-boxes .icon-box p {
+  font-size: 15px;
+  color: #848484;
+}
+
+#animalia {
+  width: 100%;
+  height: 80vh;
+  background: url("../img/animalia/capa.jpg") top center;
+  background-size: cover;
+  position: relative;
+}
+
+#animalia:before {
+  content: "";
+  background: rgba(0, 0, 0, 0.2);
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+#animalia .container {
+  padding-top: 72px;
+}
+
+@media (max-width: 992px) {
+  #animalia .container {
+    padding-top: 62px;
+  }
+}
+
+#animalia h1 {
+  margin: 0;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 56px;
+  color: #fff;
+  font-family: "Poppins", sans-serif;
+}
+
+#animalia h2 {
+  color: #eee;
+  margin: 10px 0 0 0;
+  font-size: 20px;
+}
+
+@media (min-width: 1024px) {
+  #animalia {
+    background-attachment: fixed;
+  }
+}
+
+@media (max-width: 768px) {
+  #he {
+    height: 100vh;
+  }
+
+  #animalia h1 {
+    font-size: 28px;
+    line-height: 36px;
+  }
+
+  #animalia h2 {
+    font-size: 18px;
+    line-height: 24px;
+  }
+}
+/*--------------------------------------------------------------
+# End Animalia Section
+--------------------------------------------------------------*/
 
 /*--------------------------------------------------------------
 # Sections General
