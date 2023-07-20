@@ -43,7 +43,7 @@ h6 {
   right: 15px;
   bottom: 15px;
   z-index: 996;
-  background: #5fcf80;
+  background: #00592E;
   width: 40px;
   height: 40px;
   border-radius: 50px;
@@ -136,7 +136,7 @@ h6 {
 }
 
 #header .logo a {
-  color: #5fcf80;
+  color: #00592E;
 }
 
 #header .logo img {
@@ -190,7 +190,7 @@ h6 {
 .navbar .active,
 .navbar .active:focus,
 .navbar li:hover>a {
-  color: #5fcf80;
+  color: #00592E;
 }
 
 .navbar .dropdown ul {
@@ -227,7 +227,7 @@ h6 {
 .navbar .dropdown ul a:hover,
 .navbar .dropdown ul .active:hover,
 .navbar .dropdown ul li:hover>a {
-  color: #5fcf80;
+  color: #00592E;
 }
 
 .navbar .dropdown:hover>ul {
@@ -327,7 +327,7 @@ h6 {
 .navbar-mobile a:hover,
 .navbar-mobile .active,
 .navbar-mobile li:hover>a {
-  color: #5fcf80;
+  color: #00592E;
 }
 
 .navbar-mobile .getstarted,
@@ -362,7 +362,7 @@ h6 {
 .navbar-mobile .dropdown ul a:hover,
 .navbar-mobile .dropdown ul .active:hover,
 .navbar-mobile .dropdown ul li:hover>a {
-  color: #5fcf80;
+  color: #00592E;
 }
 
 .navbar-mobile .dropdown>.dropdown-active {
@@ -613,7 +613,7 @@ section#monera h1 {
 }
 
 #header-fungi .logo a {
-  color: #00367D;
+  color: #B60000;
 }
 
 #header-fungi .logo img {
@@ -622,7 +622,7 @@ section#monera h1 {
 
 .why-us-fungi .content {
   padding: 30px;
-  background: #00367D;
+  background: #B60000;
   border-radius: 4px;
   color: #fff;
 }
@@ -751,7 +751,7 @@ section#monera h1 {
 }
 
 #header-protista .logo a {
-  color: #00367D;
+  color: #AD4301;
 }
 
 #header-protista .logo img {
@@ -760,7 +760,7 @@ section#monera h1 {
 
 .why-us-protista .content {
   padding: 30px;
-  background: #00367D;
+  background: #AD4301;
   border-radius: 4px;
   color: #fff;
 }
@@ -889,7 +889,7 @@ section#monera h1 {
 }
 
 #header-plantae .logo a {
-  color: #00367D;
+  color: #009201;
 }
 
 #header-plantae .logo img {
@@ -898,7 +898,7 @@ section#monera h1 {
 
 .why-us-plantae .content {
   padding: 30px;
-  background: #00367D;
+  background: #009201;
   border-radius: 4px;
   color: #fff;
 }
@@ -1027,7 +1027,7 @@ section#monera h1 {
 }
 
 #header-animalia .logo a {
-  color: #00367D;
+  color: #000000;
 }
 
 #header-animalia .logo img {
@@ -1036,7 +1036,7 @@ section#monera h1 {
 
 .why-us-animalia .content {
   padding: 30px;
-  background: #00367D;
+  background: #000000;
   border-radius: 4px;
   color: #fff;
 }
@@ -1180,7 +1180,7 @@ section {
 .breadcrumbs {
   margin-top: 73px;
   text-align: center;
-  background: #5fcf80;
+  background: #00592E;
   padding: 30px 0;
   color: #fff;
 }
@@ -1275,7 +1275,7 @@ section {
 --------------------------------------------------------------*/
 .why-us .content {
   padding: 30px;
-  background: #5fcf80;
+  background: #00592E;
   border-radius: 4px;
   color: #fff;
 }
@@ -2030,7 +2030,7 @@ section {
 }
 
 .contact .php-email-form button[type=submit] {
-  background: #5fcf80;
+  background: #00592E;
   border: 0;
   padding: 10px 35px;
   color: #fff;
@@ -2106,7 +2106,7 @@ section {
 
 #footer .footer-top .footer-links ul i {
   padding-right: 2px;
-  color: #5fcf80;
+  color: #00592E;
   font-size: 18px;
   line-height: 1;
 }
@@ -2130,7 +2130,7 @@ section {
 
 #footer .footer-top .footer-links ul a:hover {
   text-decoration: none;
-  color: #5fcf80;
+  color: #00592E;
 }
 
 #footer .footer-newsletter {
@@ -2171,7 +2171,7 @@ section {
   background: none;
   font-size: 16px;
   padding: 0 20px 2px 20px;
-  background: #5fcf80;
+  background: #00592E;
   color: #fff;
   transition: 0.3s;
   border-radius: 50px;
@@ -2188,7 +2188,7 @@ section {
 }
 
 #footer .credits a {
-  color: #3ac162;
+  color: #00592E;
   transition: 0.3s;
 }
 
@@ -2199,7 +2199,7 @@ section {
 #footer .social-links a {
   font-size: 18px;
   display: inline-block;
-  background: #5fcf80;
+  background: #00592E;
   color: #fff;
   line-height: 1;
   padding: 8px 0;
