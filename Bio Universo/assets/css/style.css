@@ -809,7 +809,7 @@ section#monera h1 {
 }
 
 @media (max-width: 992px) {
-  #fungi .container {
+  #protista .container {
     padding-top: 62px;
   }
 }
@@ -1290,39 +1290,12 @@ section {
   margin-bottom: 30px;
 }
 
-.why-us .content .more-btn {
-  display: inline-block;
-  background: rgba(255, 255, 255, 0.2);
-  padding: 6px 30px 8px 30px;
-  color: #fff;
-  border-radius: 50px;
-  transition: all ease-in-out 0.4s;
-}
-
-.why-us .content .more-btn i {
-  font-size: 14px;
-}
-
-.why-us .content .more-btn:hover {
-  color: #5fcf80;
-  background: #fff;
-}
-
 .why-us .icon-boxes .icon-box {
   text-align: center;
   background: #fff;
-  padding: 40px 30px;
+  padding: 30px;
   width: 100%;
   border: 1px solid #eef0ef;
-}
-
-.why-us .icon-boxes .icon-box i {
-  font-size: 32px;
-  padding: 18px;
-  color: #5fcf80;
-  margin-bottom: 30px;
-  background: #ecf9f0;
-  border-radius: 50px;
 }
 
 .why-us .icon-boxes .icon-box h4 {
@@ -2217,82 +2190,6 @@ section {
   text-decoration: none;
 }
 
-/*
-REINOS SECTION
-*/
-.breadcrumbs-reinos {
-  margin-top: 10px;
-  text-align: center;
-  background: #5fcf80;
-  padding: 20px 0;
-  color: #fff;
-}
-
-.why-us-reinos .content {
-  padding: 30px;
-  background: #5fcf80;
-  border-radius: 4px;
-  color: #fff;
-}
-
-.why-us-reinos .content h3 {
-  font-weight: 700;
-  font-size: 34px;
-  margin-bottom: 30px;
-}
-
-.why-us-reinos .content p {
-  margin-bottom: 30px;
-}
-
-.why-us-reinos .content .more-btn {
-  display: inline-block;
-  background: rgba(255, 255, 255, 0.2);
-  padding: 6px 30px 8px 30px;
-  color: #fff;
-  border-radius: 50px;
-  transition: all ease-in-out 0.4s;
-}
-
-.why-us-reinos .content .more-btn i {
-  font-size: 14px;
-}
-
-.why-us-reinos .content .more-btn:hover {
-  color: #5fcf80;
-  background: #fff;
-}
-
-.why-us-reinos .icon-boxes .icon-box {
-  text-align: center;
-  background: #fff;
-  padding: 40px 30px;
-  width: 100%;
-  border: 1px solid #eef0ef;
-}
-
-.why-us-reinos .icon-boxes .icon-box i {
-  font-size: 32px;
-  padding: 18px;
-  color: #5fcf80;
-  margin-bottom: 30px;
-  background: #ecf9f0;
-  border-radius: 50px;
-}
-
-.why-us-reinos .icon-boxes .icon-box h4 {
-  font-size: 20px;
-  font-weight: 700;
-  margin: 0 0 30px 0;
-}
-
-.why-us-reinos .icon-boxes .icon-box p {
-  font-size: 15px;
-  color: #848484;
-}
-/*
-End Reinos sections
-*/
 
 
 
